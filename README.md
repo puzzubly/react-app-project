@@ -1,2 +1,2 @@
 # react-app-project
-Here I built a fully responsive React website from scratch 
+I'm building a fully responsive React website from scratch 
