@@ -1,16 +1,24 @@
 import React from "react";
-import './Hero.css';
+import "./Hero.css";
+
+import { useNavigate } from "react-router-dom";
 
 function Hero() {
+  let navigate = useNavigate();
   return (
     <div className="hero">
       <div className="content">
-      <p>..time to talk</p>
+        <p>..time to talk</p>
         <h1 className="heading">Web Development?</h1>
         <p>Let's build a website</p>
-        <p>from scratch</p>
-        <p>in your style</p>
-        <button href="/" className="button">Free Consultation</button>
+        <p>to suit the style</p>
+        <p>of your business</p>
+        <button
+          className="button"
+          onClick={() => {navigate("/Contact");}}
+        >
+          Free Consultation
+        </button>
       </div>
     </div>
   );

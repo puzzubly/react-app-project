@@ -13,9 +13,7 @@ function Navbar() {
   return (
     <div className="header">
       <div className="navbar">
-        <a href="/" className="logo">
-          <img src={Logo} alt="logo" />
-        </a>
+        <img className="logo" src={Logo} alt="logo" />
         <div className="hamburger" onClick={handleClick}>
           {click ? <FaTimes size={32} /> : <FaBars size={28} />}
         </div>
