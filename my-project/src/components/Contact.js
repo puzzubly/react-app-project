@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Contact.css";
-// import Axios from "Axios";
+
 
 function Contact() {
   const initialValues = { firstname: "", lastname: "", email: "", message: "" };
@@ -19,16 +19,11 @@ function Contact() {
     setIsSubmit(true);
   };
 
-  useEffect(() => {
-    console.log(formErrors);
-    if (Object.keys(formErrors).length === 0 && isSubmit) {
-      console.log(formValues);
-    }
-  }, [formErrors]);
+  
 
   const validate = (values) => {
     const errors = {};
-    const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
+    const regex = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/g;
     if (!values.firstname) {
       errors.firstname = "^ first name is required";
     }
