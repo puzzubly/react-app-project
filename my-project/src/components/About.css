@@ -12,7 +12,7 @@
 }
 .about .container img {
   padding: 1rem;
-  width: 65vh;
+  width: 40vh;
   border-radius: 50%;
 }
 .about h2 {
@@ -31,12 +31,13 @@
 }
 .about .col-2 p {
   padding: 0.4rem;
+  font-size: large;
 }
 .about .button {
   margin-top: 1.4rem;
 }
 
-@media screen and (max-width:890px) {
+@media screen and (max-width:768px) {
   .about .container {
     grid-template-columns: 1fr;
   }
@@ -50,17 +51,18 @@
 
   }
   .about .container img {
-    width: 50vh;
+    width: 30vh;
   }
   .about .container .col-2 {
     padding: 0;
   }
   .about h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 2rem;
   }
   .about .col-2 p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 0.3rem;
+    margin-bottom: 10px;
   }
 }

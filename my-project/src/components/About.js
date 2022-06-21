@@ -16,8 +16,8 @@ function About() {
           <h2>About</h2>
           <span className="line"></span>
           <p>As a web developer</p>
-          <p>with a graphic design degree...</p>
-          <p>...I bring a wealth of skills to build </p>
+          <p>with a graphic design degree,</p>
+          <p>I bring a wealth of skills to build </p>
           <p>your perfect website</p>
           <button className="button" onClick={() => {navigate("/Contact");}} >Enquire here</button>
         </div>

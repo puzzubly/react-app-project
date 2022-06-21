@@ -25,6 +25,8 @@ function Footer() {
         </ul>
         <div>
           <span className="line"></span>
+          <p> neetnet.io operates on the unceded land of the Wurundjeri peoples of the Kulin nation, 
+          we pay our respects to elders past present & emerging</p>
           <p>2022 neetnet.io All rights reserved</p>
         </div>
       </div>
