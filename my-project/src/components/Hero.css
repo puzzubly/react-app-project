@@ -42,7 +42,7 @@
 .hero .button {
   margin: 1rem 0;
   width: 250px;
-} 
+}
 .hero .content p:first-child {
   font-size: 1.1rem;
   padding-bottom: 9px;
@@ -57,7 +57,7 @@
   padding: -3px;
   margin: 0px;
 }
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .hero {
     background-color: var(--overlay);
     color: #fff;
@@ -99,7 +99,6 @@
     margin: -4px;
     font-size: 1rem;
   }
-  
   .hero .button {
     margin: 1rem 0;
     width: 250px;

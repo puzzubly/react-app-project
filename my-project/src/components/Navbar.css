@@ -1,6 +1,6 @@
 .header {
   display: block;
-    position: absolute;
+  position: absolute;
   height: 90px;
   width: 100%;
   top: 0;
@@ -43,7 +43,6 @@
 .hamburger {
   display: none;
 }
-
 @media screen and (max-width: 768px) {
   .header {
     display: block;
@@ -57,7 +56,6 @@
     background-color: #fff;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
   }
-
   .header .navbar {
     display: flex;
   }
@@ -68,10 +66,9 @@
     display: flex;
     cursor: pointer;
   }
-
   .nav-menu {
     position: fixed;
-    left: -100%;
+    left: -200%;
     top: 90px;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.9);
@@ -86,7 +83,6 @@
   .nav-menu.active {
     left: 0;
   }
-  
   .header .navbar img {
     width: 180px;
   }

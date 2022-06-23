@@ -15,7 +15,9 @@ function Hero() {
         <p>of your business</p>
         <button
           className="button"
-          onClick={() => {navigate("/Contact");}}
+          onClick={() => {
+            navigate("/Contact");
+          }}
         >
           Free Consultation
         </button>
